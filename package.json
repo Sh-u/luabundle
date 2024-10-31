@@ -3,7 +3,7 @@
   "description": "Bundles several Lua files into a single file.",
   "version": "1.7.0",
   "author": "Benjamin Dobell @Benjamin-Dobell",
-  "bugs": "https://github.com/Benjamin-Dobell/luabundle/issues",
+  "bugs": "https://github.com/Sh-u/luabundle/issues",
   "dependencies": {
     "moonsharp-luaparse": "^0.2.4"
   },
@@ -18,7 +18,7 @@
   "engines": {
     "node": ">=8.0.0"
   },
-  "homepage": "https://github.com/Benjamin-Dobell/luabundle",
+  "homepage": "https://github.com/Sh-u/luabundle",
   "keywords": [
     "lua",
     "require",
@@ -30,7 +30,6 @@
   "main": "index.js",
   "repository": "Sh-u/luabundle",
   "scripts": {
-    "prepare": "npm run build",
     "build": "node scripts/build.js",
     "prepack": "node scripts/prepack.js",
     "posttest": "eslint . --config .eslintrc",
