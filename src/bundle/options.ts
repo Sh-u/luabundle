@@ -22,7 +22,7 @@ export type RealizedOptions = RecursiveReadonly<{
   resolveModule: undefined | ((name: string, packagePaths: readonly string[]) => string | null),
   sourceEncoding: BufferEncoding,
   callRoot: boolean;
-  customRequireFn: string;
+  customRequireFn?: string;
 }>
 
 export type Options = RecursiveMutable<RecursivePartial<RealizedOptions>>
@@ -43,4 +43,6 @@ export const defaultOptions: RealizedOptions = {
   ignoredModuleNames: [],
   resolveModule: undefined,
   sourceEncoding: 'utf8',
+  callRoot: true,
+  customRequireFn: undefined,
 } as const
