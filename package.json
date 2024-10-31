@@ -18,7 +18,6 @@
   "engines": {
     "node": ">=8.0.0"
   },
-  "prepare": "npm run build",
   "homepage": "https://github.com/Benjamin-Dobell/luabundle",
   "keywords": [
     "lua",
@@ -31,6 +30,7 @@
   "main": "index.js",
   "repository": "Sh-u/luabundle",
   "scripts": {
+    "prepare": "npm run build",
     "build": "node scripts/build.js",
     "prepack": "node scripts/prepack.js",
     "posttest": "eslint . --config .eslintrc",
