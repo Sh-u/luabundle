@@ -18,6 +18,7 @@
   "engines": {
     "node": ">=8.0.0"
   },
+  "prepare": "npm run build",
   "homepage": "https://github.com/Benjamin-Dobell/luabundle",
   "keywords": [
     "lua",
