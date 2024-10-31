@@ -31,10 +31,8 @@
   "repository": "Sh-u/luabundle",
   "scripts": {
     "build": "node scripts/build.js",
-    "prepack": "node scripts/prepack.js",
     "posttest": "eslint . --config .eslintrc",
     "test": "echo NO TESTS"
   },
-  "types": "index.d.ts",
-  "packageManager": "pnpm@9.5.0"
+  "types": "index.d.ts"
 }
